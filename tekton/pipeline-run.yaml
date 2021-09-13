@@ -11,6 +11,8 @@ spec:
       value: https://github.com/cloud-native-garage-method-cohort/alex-seymour-buildah-assignment.git
     - name: image-repo
       value: quay.io/alexander_seymour_ibm/buildah_assignment
+    - name: app-name
+      value: buildah-assignment
   workspaces:
     - name: pipeline-shared-data
       volumeClaimTemplate:
